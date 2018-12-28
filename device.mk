@@ -237,6 +237,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceParts
 
+#Dirac
+PRODUCT_PACKAGES += \
+     Dirac
+
 # Display/Graphics
 PRODUCT_PACKAGES += \
     copybit.msm8996 \
