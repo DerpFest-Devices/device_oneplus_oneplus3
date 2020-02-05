@@ -32,6 +32,10 @@ $(call inherit-product, vendor/addons/onepluscamera/config.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+ifeq ($(CURRENT_BUILD_TYPE), nogapps)
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-nogapps
+endif
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
