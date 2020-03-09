@@ -73,13 +73,4 @@
             android:title="@string/swap_back_recents_title"
             android:persistent="true" />
     </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="graphics"
-        android:title="@string/graphics_title">
-        <SwitchPreference
-            android:key="hbm"
-            android:summary="@string/hbm_mode_summary"
-            android:title="@string/hbm_mode_title" />
-    </PreferenceCategory>
 </PreferenceScreen>

@@ -45,7 +45,5 @@ on boot
     chmod 0666 /sys/class/graphics/fb0/mode
     chown system graphics /sys/class/graphics/fb0/modes
     chmod 0666 /sys/class/graphics/fb0/modes
-    chown system graphics /sys/class/graphics/fb0/hbm
-    chmod 0666 /sys/class/graphics/fb0/hbm
     chown system graphics /sys/class/graphics/fb0/adaption_mode
     chmod 0666 /sys/class/graphics/fb0/adaption_mode

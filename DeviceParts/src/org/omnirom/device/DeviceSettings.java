@@ -49,9 +49,7 @@ public class DeviceSettings extends PreferenceFragment implements
     private static final String KEY_SLIDER_MODE_CENTER = "slider_mode_center";
     private static final String KEY_SLIDER_MODE_BOTTOM = "slider_mode_bottom";
     private static final String KEY_BUTTON_CATEGORY = "buttons_category";
-    private static final String KEY_CATEGORY_GRAPHICS = "graphics";
 
-    public static final String KEY_HBM_SWITCH = "hbm";
     public static final String KEY_HWK_SWITCH = "hwk";
     public static final String KEY_PROXI_SWITCH = "proxi";
 
@@ -63,7 +61,6 @@ public class DeviceSettings extends PreferenceFragment implements
     private ListPreference mSliderModeTop;
     private ListPreference mSliderModeCenter;
     private ListPreference mSliderModeBottom;
-    private static TwoStatePreference mHBMModeSwitch;
     private static TwoStatePreference mHWKSwitch;
     private PreferenceCategory buttonCategory;
     private static Context mContext;
@@ -98,11 +95,6 @@ public class DeviceSettings extends PreferenceFragment implements
         valueIndex = mSliderModeBottom.findIndexOfValue(String.valueOf(sliderModeBottom));
         mSliderModeBottom.setValueIndex(valueIndex);
         mSliderModeBottom.setSummary(mSliderModeBottom.getEntries()[valueIndex]);
-
-        mHBMModeSwitch = (TwoStatePreference) findPreference(KEY_HBM_SWITCH);
-        mHBMModeSwitch.setEnabled(HBMModeSwitch.isSupported());
-        mHBMModeSwitch.setChecked(HBMModeSwitch.isCurrentlyEnabled(this.getContext()));
-        mHBMModeSwitch.setOnPreferenceChangeListener(new HBMModeSwitch());
 
         mHWKSwitch = (TwoStatePreference) findPreference(KEY_HWK_SWITCH);
         buttonCategory = (PreferenceCategory) findPreference(KEY_BUTTON_CATEGORY);
