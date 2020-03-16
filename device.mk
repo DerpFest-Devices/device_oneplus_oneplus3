@@ -32,7 +32,8 @@ $(call inherit-product, vendor/addons/onepluscamera/config.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
-ifeq ($(CURRENT_BUILD_TYPE), nogapps)
+
+ifeq ($(DERP_BUILD_ZIP_TYPE), VANILLA)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-nogapps
 endif
