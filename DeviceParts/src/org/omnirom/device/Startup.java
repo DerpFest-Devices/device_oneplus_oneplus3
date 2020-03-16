@@ -151,6 +151,8 @@ public class Startup extends BroadcastReceiver {
         enabled = !TextUtils.isEmpty(value) && !value.equals(AppSelectListPreference.DISABLED_ENTRY);
         restore(getGestureFile(GestureSettings.FP_GESTURE_LONG_PRESS_APP), enabled);
 
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+
         enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_HWK_SWITCH, false);
         restore(HWKSwitch.getFile(), enabled);
 
