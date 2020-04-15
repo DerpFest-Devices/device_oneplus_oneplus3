@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "repository": "PixelExperience-Devices/vendor_oneplus",
+    "repository": "DerpFest-Devices/vendor_oneplus",
     "target_path": "vendor/oneplus",
     "branch": "ten"
   },
