@@ -18,16 +18,11 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- About - Device specific links -->
     <string name="about_device_fw_ver" translatable="false">OOS 9.0.6</string> <!-- Firmware version -->
     <string name="about_device_fw_link" translatable="false">https://oxygenos.oneplus.net/OnePlus3Oxygen_16_OTA_086_all_1911042118_997006918a894202.zip</string> <!-- Firmware link -->
     <string name="about_device_recovery_ver" translatable="false">twrp-3.3.1-1-oneplus3</string> <!-- Recovery version -->
     <string name="about_device_recovery_link" translatable="false">https://dl.twrp.me/oneplus3/twrp-3.3.1-1-oneplus3.img</string> <!-- Recovery link -->
+    <string name="maintainer_name" translatable="false">Gaurav(Gaurav241)</string>
+    <string name="maintainer_telegram" translatable="false">https://t.me/officialderpfestop3</string>
 </resources>
-
-<resources>
-	<string name="maintainer_name" translatable="false">Gaurav</string>
-	<string name="maintainer_telegram" translatable="false">https://t.me/officialderpfestop3</string>
-</resources>
-
