@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "repository": "DerpFest-Devices/vendor_oneplus",
+    "repository": "Gaurav241/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
     "branch": "ten"
   },
