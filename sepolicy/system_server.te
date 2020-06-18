@@ -2,3 +2,8 @@
 allow system_server ota_package_file:dir getattr;
 
 allow system_server persist_camera_prop:file read;
+
+# Vibrator
+allow system_server sysfs_vibrator:file { rw_file_perms };
+allow system_server sysfs_vibrator:dir { search };
+
