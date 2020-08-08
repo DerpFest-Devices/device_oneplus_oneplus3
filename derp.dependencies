@@ -7,9 +7,9 @@
   },
   {
     "remote": "github",
-    "repository": "Gaurav241/proprietary_vendor_oneplus",
-    "target_path": "vendor/oneplus",
-    "branch": "ten"
+    "repository": "Gaurav241/vendor_oneplus",
+    "target_path": "vendor/oneplus/oneplus3",
+    "branch": "derp-ten"
   },
   {
     "repository": "Gaurav241/packages_apps_GoogleCamera_oneplus3",
