@@ -500,14 +500,6 @@
     <!-- Minimum color temperature, in Kelvin, supported by Night display. -->
     <integer name="config_nightDisplayColorTemperatureMin">1200</integer>
 
-    <!-- The list absolute paths of jar/apk files containing the device specific handlers,
-        delimited by File.pathSeparator, which defaults to ":" on Android  -->
-    <string name="config_deviceKeyHandlerLib" translatable="false">/system/product/priv-app/DeviceParts/DeviceParts.apk</string>
-
-    <!-- Full qualified name of the class that implements
-        com.android.internal.os.DeviceKeyHandler interface. -->
-    <string name="config_deviceKeyHandlerClass" translatable="false">org.omnirom.device.KeyHandler</string>
-
     <!-- The component name, flattened to a string, for the default autofill service
          to  enabled for an user. This service must be trusted, as it can be activated
          without explicit consent of the user. If no autofill service with the

@@ -33,7 +33,3 @@
 
 # Usb
 /(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.0-service\.oneplus3       u:object_r:hal_usb_default_exec:s0
-
-# Omni
-/sys/devices/virtual/timed_output/vibrator/vtg_level            u:object_r:sysfs_vibrator:s0
-

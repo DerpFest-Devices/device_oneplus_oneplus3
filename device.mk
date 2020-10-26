@@ -230,11 +230,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     services-ext
 
-# Device
-PRODUCT_PACKAGES += \
-    DeviceParts
-
-#Dirac
+# Dirac
 PRODUCT_PACKAGES += \
      Dirac
 
