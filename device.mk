@@ -387,6 +387,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Oneplus3Parts
+PRODUCT_PACKAGES += \
+    Oneplus3Parts
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service-qti
