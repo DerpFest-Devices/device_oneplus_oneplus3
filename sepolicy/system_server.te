@@ -6,12 +6,4 @@ allow system_server persist_camera_prop:file read;
 # Vibrator
 allow system_server sysfs_vibrator:file { rw_file_perms };
 allow system_server sysfs_vibrator:dir { search };
-allow system_server sysfs_vibrator:file { r_file_perms };
 
-# Omni
-allow system_server sysfs_graphics_omni:file { rw_file_perms };
-allow system_server sysfs_graphics_omni:dir { search };
-allow system_server sysfs_fpc_proximity:file { rw_file_perms };
-
-allow system_server sysfs_fpc:dir { r_dir_perms };
-allow system_server sysfs_fpc:file { rw_file_perms };

@@ -23,7 +23,6 @@ genfscon sysfs /devices/soc/70000.qcom,msm-thermal/uio/uio2        u:object_r:sy
 # Touchscreen
 genfscon proc /touchpanel                           u:object_r:proc_touchpanel:s0
 genfscon proc /s1302                                u:object_r:proc_touchpanel:s0
-genfscon proc /s1302/key_rep                        u:object_r:proc_key_rep:s0
 
 # Tri-state key
 genfscon proc /tri-state-key                        u:object_r:proc_touchpanel:s0
