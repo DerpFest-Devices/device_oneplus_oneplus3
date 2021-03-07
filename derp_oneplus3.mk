@@ -20,8 +20,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oneplus3 device
 $(call inherit-product, device/oneplus/oneplus3/device.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common DerpFestOS stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+IS_PHONE := true
+
+# Official-ify
+DERP_BUILDTYPE := Official
 
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2019-10-01
@@ -31,9 +36,6 @@ PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus 3/3T
-
-# ArrowOS Maintainer
-DEVICE_MAINTAINER := Gaurav24
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
